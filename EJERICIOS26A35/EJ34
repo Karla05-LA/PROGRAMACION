@@ -1,0 +1,23 @@
+edad = int(input("Ingresa tu edad: "))
+
+if edad < 0 or edad > 120:
+    print("Edad inválida")
+else:
+    if edad < 10:
+        categoria = "Niño"
+    elif edad < 18:  # 10 a 17
+        categoria = "Adolescente"
+    elif edad < 30:  # 18 a 29
+        categoria = "Joven"
+    elif edad < 60:  # 30 a 59
+        categoria = "Adulto"
+    else:  # 60 o más
+        categoria = "Adulto mayor"
+    
+    print(f"Categoría: {categoria}")
+    
+    if edad >= 18:
+        print("Eres mayor de edad")
+    else:
+        print("No eres mayor de edad")
+        
