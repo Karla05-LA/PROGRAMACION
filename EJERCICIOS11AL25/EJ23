@@ -1,0 +1,10 @@
+num1 = float(input("Ingrese el primer número: "))
+num2 = float(input("Ingrese el segundo número: "))
+
+print(f"\nComparaciones entre {num1} y {num2}:")
+print(f"{num1} == {num2}: {num1 == num2}")
+print(f"{num1} != {num2}: {num1 != num2}")
+print(f"{num1} > {num2}: {num1 > num2}")
+print(f"{num1} < {num2}: {num1 < num2}")
+print(f"{num1} >= {num2}: {num1 >= num2}")
+print(f"{num1} <= {num2}: {num1 <= num2}")
