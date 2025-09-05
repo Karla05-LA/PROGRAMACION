@@ -1,0 +1,6 @@
+nombre_1 = input(str("Ingrese el nombre de la primer persona"))
+nombre_2 = input(str("Ingrese el nombre de la segunda persona"))
+nombre_3 = input(str("Ingrese el nombre de la tercer persona"))
+print(f"Hola {nombre_1}, hace mucho que no te veo ¿qué tal te va?")
+print(f"Que onda {nombre_2} ¿qué dice la raza?")
+print(f"Buen dia {nombre_3} ¿cómo amaneciste hoy?")
