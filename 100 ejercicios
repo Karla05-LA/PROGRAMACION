@@ -1,4 +1,0 @@
-número = input(int("Ingrese un número")
-
-print(número)
-
