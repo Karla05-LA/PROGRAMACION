@@ -1,1 +1,7 @@
-
+cal1 = 7
+cal2 = 6.5
+cal3 = 8.4
+cal4 = 9
+cal5 = 4
+promedio = (cal1 + cal2 + cal3 + cal4 + cal5) / 5
+print("El promedio de las calificaciones es:", promedio)
