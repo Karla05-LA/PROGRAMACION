@@ -4,7 +4,6 @@ import requests
 url = "https://api.open-meteo.com/v1/forecast?latitude=19.43&longitude=-99.13&current_weather=true"
 
 response = requests.get(url)
-
 if response.status_code == 200:
     data = response.json()
     clima = data["current_weather"]
