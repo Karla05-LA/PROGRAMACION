@@ -1,0 +1,12 @@
+
+import re
+
+contrasena = input("Ingrese una contraseña: ")
+
+if (len(contrasena) >= 8 and
+    re.search(r'[A-Z]', contrasena) and
+    re.search(r'[a-z]', contrasena) and
+    re.search(r'\d', contrasena)):
+    print("Contraseña válida")
+else:
+    print("Contraseña inválida")
